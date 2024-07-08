@@ -16,20 +16,20 @@ export default function Projects() {
               <div className="flex items-center">
                 <Image
                   className="rounded-full mr-3 border-[#444c56] max-md:border-[#dededf] border-solid border-2 shadow-[#cdd9e51a] shadow-sm"
-                  src="/github_profile.jpg"
+                  src="/github_profile.png"
                   width="85"
                   height="85"
                   alt="my github profile picture"
                 />
                 <div className="pt-2 pb-3">
                   <h4 className="text-lg text-[#adbac7] max-md:text-[#1f2328] font-semibold">
-                    凯 - kǎi
+                    Priyanshu Srivastav
                   </h4>
                   <h5 className="font-light  text-sm text-[#768390] max-md:text-[#656d76]">
-                    KaiBelmo
+                    priyanshusrivastav212
                   </h5>
                   <h5 className="font-normal text-sm text-[#bacadb] max-md:text-[#1f2328]">
-                    kai is my virtual name.
+                    Final Year CSE Undergrad
                   </h5>
                 </div>
               </div>
