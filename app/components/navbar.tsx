@@ -32,9 +32,11 @@ export default function Navbar({ handleLinkClick }: NavProps) {
             ))}
           </div>
           <div>
+            <Link href="https://drive.google.com/file/d/1VR_D-dAAZzkLHkh7Jgd9fOIqMZtqH5Ei/view?usp=drive_link" target="_blank" className="w-full">
               <div className="text-center max-sm:hidden">
-                Priyanshu Srivastav
+                Priyanshu Srivastav's Resume
               </div>
+            </Link>
           </div>
         </div>
       </nav>
