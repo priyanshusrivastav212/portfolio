@@ -8,8 +8,8 @@ export default function Whoami() {
         <div className="pt-3 max-sm:pt-0 text-8xl font-bold max-md:text-center text-[#181a1b] max-md:text-6xl max-md:mb-2">
           Hello, <br /> I am <br /> Priyanshu Srivastav.
         </div>
-        <div className="font-inter pb-10 max-md:pb-1 pl-1 flex items-center text-lg max-lg:text-base max-md:text-center text-[#212121]">
-          Final year CSE undergrad and passionate ML enthusiast, aspiring to be a <br /> skilled and innovative data scientist.
+        <div className="font-inter pb-20 max-md:pb-1 pl-1 flex items-center text-lg max-lg:text-base max-md:text-center text-[#212121]">
+          <br /> Final year CSE undergrad and passionate ML enthusiast, aspiring to be a <br /> skilled and innovative data scientist.
         </div>
         <div className="relative max-md:hidden">
           {/* https://codepen.io/mikewagz/pen/PGXqOg */}
