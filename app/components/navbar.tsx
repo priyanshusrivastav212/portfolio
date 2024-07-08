@@ -35,7 +35,6 @@ export default function Navbar({ handleLinkClick }: NavProps) {
               <div className="text-center max-sm:hidden">
                 Priyanshu Srivastav
               </div>
-            </Link>
           </div>
         </div>
       </nav>
