@@ -1,50 +1,26 @@
 [
   {
-    "name": "Personal Website",
-    "technologies": "Typescript",
-    "description": "this.",
-    "githubRepo": "https://github.com/KaiBelmo/portfolio",
-    "iconColor": "#3178c6",
+    "name": "Cricket Score Predictor",
+    "technologies": "Python",
+    "description": "Designed to predict the Score of T20 Cricket Matches using ML",
+    "githubRepo": "https://github.com/priyanshusrivastav212/Projects_ML/tree/main/Cricket%20Score%20Predictor",
+    "iconColor": "#3572A5",
     "borderColor": "#5a93d1"
   },
   {
-    "name": "Personal Website (win-95 version)",
-    "technologies": "Vue.js",
-    "description": "Personal portfolio website designed in the style of Windows 95.",
-    "githubRepo": "https://github.com/KaiBelmo/kai-belmo-win95",
-    "iconColor": "#41b883",
+    "name": "Handwritten Prediction",
+    "technologies": "Python",
+    "description": "Developed and implemented a state‑of‑the‑art deep learning model for handwritten digits recognition.",
+    "githubRepo": "https://github.com/priyanshusrivastav212/Projects_ML/tree/main/Handwritten%20Prediction",
+    "iconColor": "#3572A5",
     "borderColor": "#60c498"
   },
   {
-    "name": "b1m0-dbg",
-    "technologies": "C programming",
+    "name": "Vehicle Speed Detection",
+    "technologies": "Python",
     "description": "linux debugger.",
-    "githubRepo": "https://github.com/KaiBelmo/b1m0-dbg",
-    "iconColor": "#555555",
-    "borderColor": "#777777"
-  },
-  {
-    "name": "libC--",
-    "technologies": "C programming",
-    "description": "C++ containers but in C.",
-    "githubRepo": "https://github.com/KaiBelmo/libC--",
-    "iconColor": "#555555",
-    "borderColor": "#777777"
-  },
-  {
-    "name": "xchg-rax-rax",
-    "technologies": "Assembly",
-    "description": "Solutions of xchg rax,rax",
-    "githubRepo": "https://github.com/KaiBelmo/xchg-rax-rax",
-    "iconColor": "#6e4c13",
-    "borderColor": "#9e6e1e"
-  },
-  {
-    "name": "...",
-    "technologies": "...",
-    "description": "More projects are coming soon...",
-    "githubRepo": "https://github.com/KaiBelmo/",
-    "iconColor": "#555555",
+    "githubRepo": "Tracking highway car speeds in real time",
+    "iconColor": "#3572A5",
     "borderColor": "#777777"
   }
 ]
