@@ -10,7 +10,7 @@ export default function Footer() {
             <span className="">
               Created by{" "}
               <Link
-                href="https://github.com/priyanshusrivastav212/"
+                href="https://github.com/kaibelmo"
                 target="_blank"
                 className="font-normal underline cursor-help"
               >
