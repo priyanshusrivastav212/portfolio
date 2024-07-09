@@ -1,6 +1,5 @@
 import React from 'react';
 import "@/assets/css/font.css";
-yarn add react-icons
 import { FaPython, FaRProject, FaGithub, FaTensorflow, FaDatabase } from "react-icons/fa";
 import { SiJupyter, SiScikitlearn, SiPowerbi, SiPandas, SiNumpy, SiSeaborn } from "react-icons/si";
 import { AiOutlineFileExcel } from "react-icons/ai";
