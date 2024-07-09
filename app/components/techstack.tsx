@@ -30,26 +30,34 @@ const TechstackItem = ({ icon, title, description, skillLevel }) => {
   );
 }
 
-export default function Techstack() {
+export default function Contact() {
   return (
-    <div id="techstack" className="h-fit w-full">
-      <section className="bg-zinc-900 py-5 flex flex-col justify-center items-center w-full text-gray-100 h-fit">
-        <div className="container p-4 space-y-2 text-center">
-          <h2 className="text-5xl font-bold">Tech Stack</h2>
-          <p className="text-gray-400">To make me a superhero</p>
+    <section className="container w-full px-8 mx-auto overflow-hidden md:h-screen flex flex-col justify-center">
+      <div className="flex flex-col w-full h-full">
+        <div className="h-[90%] flex flex-row-reverse max-md:flex-col items-center justify-center">
         </div>
-        <div className="container mx-auto grid justify-center gap-7 sm:grid-cols-4">
-          {techstack.map((tech, index) => (
-            <TechstackItem
-              key={index}
-              icon={tech.icon}
-              title={tech.title}
-              description={tech.description}
-              skillLevel={tech.skillLevel}
-            />
-          ))}
+        <div className="flex flex-col items-center w-full my-16 flex-grow justify-center">
+          <h2 className="text-2xl font-bold mb-8">Experience</h2>
+          <div className="relative w-full">
+            <div className="absolute border-l-2 border-gray-300 h-full left-1/2 transform -translate-x-1/2"></div>
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className={`mb-8 flex items-center w-full ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
+              >
+                <div className={`w-1/2 px-4 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
+                  <div className="bg-white p-4 rounded-lg shadow-lg">
+                    <h3 className="text-lg font-semibold">{exp.role}</h3>
+                    <p className="text-sm text-gray-500">{exp.date}</p>
+                    <p className="text-sm text-gray-700">{exp.company}</p>
+                  </div>
+                </div>
+                <div className="w-0.5 h-4 bg-gray-300"></div>
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
