@@ -14,8 +14,8 @@ import "@/assets/css/main.css";
 const sections: Section[] = [
   { name: "whoami", domElement: null, component: Whoami },
   { name: "projects", domElement: null, component: Projects },
-  { name: "contact", domElement: null, component: Contact },
   { name: "experience", domElement: null, component: Experience },
+  { name: "contact", domElement: null, component: Contact },
 ];
 
 export default function Home() {
