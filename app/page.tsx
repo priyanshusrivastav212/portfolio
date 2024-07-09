@@ -17,7 +17,7 @@ const sections: Section[] = [
   { name: "projects", domElement: null, component: Projects },
   { name: "contact", domElement: null, component: Contact },
   { name: "experience", domElement: null, component: Experience },
-  { name: "techStack", domElement: null, component: techstack },
+  { name: "techStack", domElement: null, component: Techstack },
 ];
 
 export default function Home() {
