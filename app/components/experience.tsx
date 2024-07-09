@@ -42,6 +42,9 @@ const experiences = [
 export default function Contact() {
   return (
     <section className="container w-full px-8 mx-auto overflow-hidden md:h-screen">
+      <div className="flex flex-col w-full h-full">
+        <div className="h-[90%] flex flex-row-reverse max-md:flex-col items-center justify-center">
+        </div>
         <div className="flex flex-col items-center w-full my-16">
           <h2 className="text-2xl font-bold mb-8">Experience</h2>
           <div className="relative w-full">
