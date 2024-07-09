@@ -44,17 +44,6 @@ export default function Contact() {
     <section className="container w-full px-8 mx-auto overflow-hidden md:h-screen flex flex-col justify-center">
       <div className="flex flex-col w-full h-full">
         <div className="h-[90%] flex flex-row-reverse max-md:flex-col items-center justify-center">
-          <div>
-            <Image src="/me_.jpg" width="560" height="560" alt="me.jpg" className="max-md:w-64 max-md:pb-5" />
-          </div>
-          <div className="text-center max-md:text-sm max-md:mb-3">
-            <p>
-              if you&apos;re interested in working on a project together, have any questions, or just want to connect.
-            </p>
-            <Link href="mailto:priyanshu.0702@gmail.com" className="font-medium underline">
-              priyanshu.0702@gmail.com
-            </Link>
-          </div>
         </div>
         <div className="flex flex-col items-center w-full my-16 flex-grow justify-center">
           <h2 className="text-2xl font-bold mb-8">Experience</h2>
