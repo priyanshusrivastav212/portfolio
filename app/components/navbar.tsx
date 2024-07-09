@@ -8,7 +8,7 @@ const navElements: NavElement[] = [
   { label: "Whoami", link: "#whoami", external: false },
   { label: "Projects", link: "#projects", external: false },
   { label: "Experience", link: "#experience", external: false },
-  { label: "TechStack", link: "#techstack", external: false },
+  //{ label: "TechStack", link: "#techstack", external: false },
   { label: "Contact", link: "#contact", external: false },
 ];
 
