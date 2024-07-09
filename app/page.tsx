@@ -8,12 +8,14 @@ import Whoami from "@/app/components/whoami";
 import Navbar from "@/app/components/navbar";
 import Contact from "@/app/components/contact";
 import Projects from "@/app/components/projects";
+import Experience from "@/app/components/experience";
 import "@/assets/css/main.css";
 
 const sections: Section[] = [
   { name: "whoami", domElement: null, component: Whoami },
   { name: "projects", domElement: null, component: Projects },
   { name: "contact", domElement: null, component: Contact },
+  { name: "experience", domElement: null, component: Experience },
 ];
 
 export default function Home() {
