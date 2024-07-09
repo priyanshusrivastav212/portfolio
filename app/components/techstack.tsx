@@ -39,8 +39,8 @@ export default function Techstack() {
           <p className="text-gray-400">To make me a superhero</p>
         </div>
         <div className="container mx-auto grid justify-center gap-7 sm:grid-cols-4">
-          {techStack.map((tech, index) => (
-            <TechStackItem
+          {techstack.map((tech, index) => (
+            <TechstackItem
               key={index}
               icon={tech.icon}
               title={tech.title}
