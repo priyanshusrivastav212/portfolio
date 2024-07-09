@@ -28,7 +28,6 @@ export default function Contact() {
 }
 */
 import "@/assets/css/font.css";
-import Footer from "./footer";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -64,9 +63,6 @@ export default function Contact() {
               </div>
             ))}
           </div>
-        </div>
-        <div className="max-md:mt-16">
-          <Footer />
         </div>
       </div>
     </section>
