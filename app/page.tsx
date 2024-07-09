@@ -54,7 +54,7 @@ export default function Home() {
       targetSectionIndex++;
     }
     const targetSection = sections[targetSectionIndex];
-    scrollToElement(targetSection.domElement, 1200);
+    scrollToElement(targetSection.domElement, 1000);
     setActiveSectionIndex(targetSectionIndex);
   };
 
@@ -79,7 +79,7 @@ export default function Home() {
       setWheelEventExecuted(true);
       setTimeout(() => {
         setWheelEventExecuted(false);
-      }, 2000);
+      }, 1200);
     }
     if (direction !== null) {
       e.preventDefault();
