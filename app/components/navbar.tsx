@@ -7,8 +7,8 @@ import Link from "next/link";
 const navElements: NavElement[] = [
   { label: "Whoami", link: "#whoami", external: false },
   { label: "Projects", link: "#projects", external: false },
-  { label: "Experience", link: "#experience", external: false },
   { label: "Contact", link: "#contact", external: false },
+  { label: "Experience", link: "#experience", external: false },
 ];
 
 export default function Navbar({ handleLinkClick }: NavProps) {
