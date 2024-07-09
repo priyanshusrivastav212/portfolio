@@ -54,7 +54,7 @@ export default function Home() {
       targetSectionIndex++;
     }
     const targetSection = sections[targetSectionIndex];
-    scrollToElement(targetSection.domElement, 1700);
+    scrollToElement(targetSection.domElement, 1200);
     setActiveSectionIndex(targetSectionIndex);
   };
 
@@ -100,7 +100,7 @@ export default function Home() {
   };
 
   const handleDotClick = (index: number = 2) => {
-    scrollToElement(sections[index].domElement, 1400);
+    scrollToElement(sections[index].domElement, 1200);
     setActiveSectionIndex(index);
   };
   const dots = Array(sections.length)
