@@ -4,7 +4,7 @@ import { FaPython, FaRProject, FaGithub, FaTensorflow, FaDatabase } from "react-
 import { SiJupyter, SiScikitlearn, SiPowerbi, SiPandas, SiNumpy, SiSeaborn } from "react-icons/si";
 import { AiOutlineFileExcel } from "react-icons/ai";
 
-const techStack = [
+const techstack = [
   { icon: <FaPython className="w-12 h-12 text-white" />, title: "Python", description: "A programming language used for web development, data science, and more.", skillLevel: "Advanced" },
   { icon: <FaDatabase className="w-12 h-12 text-white" />, title: "SQL", description: "A domain-specific language used in programming for managing data.", skillLevel: "Intermediate" },
   { icon: <FaRProject className="w-12 h-12 text-white" />, title: "R", description: "A programming language for statistical computing and graphics.", skillLevel: "Intermediate" },
@@ -19,7 +19,7 @@ const techStack = [
   { icon: <AiOutlineFileExcel className="w-12 h-12 text-white" />, title: "Excel", description: "A spreadsheet application for data analysis and visualization.", skillLevel: "Advanced" },
 ];
 
-const TechStackItem = ({ icon, title, description, skillLevel }) => {
+const TechstackItem = ({ icon, title, description, skillLevel }) => {
   return (
     <div className="flex flex-col items-center p-4">
       {icon}
