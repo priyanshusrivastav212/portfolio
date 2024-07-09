@@ -33,10 +33,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const experiences = [
-  { role: 'Frontend Intern', date: 'May 2024', company: 'Trust Millennia' },
-  { role: 'Frontend Developer', date: 'April 2024', company: 'RestooAI' },
-  { role: 'Frontend Developer', date: 'March 2024', company: 'PixelMize Infotech' },
-  { role: 'Frontend Developer', date: 'June 2023', company: 'FilmyBugs Entertainment' },
+  { role: 'Data Analyst Intern', date: 'November 2023', company: 'Great Value Fuels Pvt. Ltd.' },
+  { role: 'AI Prompt Engineer Intern', date: 'October 2023', company: 'Saraswati Vidyamandir' },
+  { role: 'Machine Learning Intern', date: 'October 2023', company: 'Bharat Intern' },
 ];
 
 export default function Contact() {
