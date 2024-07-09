@@ -79,7 +79,7 @@ export default function Home() {
       setWheelEventExecuted(true);
       setTimeout(() => {
         setWheelEventExecuted(false);
-      }, 1200);
+      }, 2000);
     }
     if (direction !== null) {
       e.preventDefault();
