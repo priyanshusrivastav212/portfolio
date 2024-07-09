@@ -9,6 +9,7 @@ import Navbar from "@/app/components/navbar";
 import Contact from "@/app/components/contact";
 import Projects from "@/app/components/projects";
 import Experience from "@/app/components/experience";
+import TechStack from "@/app/components/techstack";
 import "@/assets/css/main.css";
 
 const sections: Section[] = [
@@ -16,6 +17,7 @@ const sections: Section[] = [
   { name: "projects", domElement: null, component: Projects },
   { name: "experience", domElement: null, component: Experience },
   { name: "contact", domElement: null, component: Contact },
+  { name: "techStack", domElement: null, component: TechStack },
 ];
 
 export default function Home() {
