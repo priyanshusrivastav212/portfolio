@@ -9,13 +9,15 @@ import Navbar from "@/app/components/navbar";
 import Contact from "@/app/components/contact";
 import Projects from "@/app/components/projects";
 import Experience from "@/app/components/experience";
+import techstack from "@/app/components/techstack";
 import "@/assets/css/main.css";
 
 const sections: Section[] = [
   { name: "whoami", domElement: null, component: Whoami },
   { name: "projects", domElement: null, component: Projects },
-  { name: "experience", domElement: null, component: Experience },
   { name: "contact", domElement: null, component: Contact },
+  { name: "experience", domElement: null, component: Experience },
+  { name: "techStack", domElement: null, component: techstack },
 ];
 
 export default function Home() {
@@ -54,7 +56,7 @@ export default function Home() {
       targetSectionIndex++;
     }
     const targetSection = sections[targetSectionIndex];
-    scrollToElement(targetSection.domElement, 1000);
+    scrollToElement(targetSection.domElement, 1700);
     setActiveSectionIndex(targetSectionIndex);
   };
 
@@ -100,7 +102,7 @@ export default function Home() {
   };
 
   const handleDotClick = (index: number = 2) => {
-    scrollToElement(sections[index].domElement, 1200);
+    scrollToElement(sections[index].domElement, 1400);
     setActiveSectionIndex(index);
   };
   const dots = Array(sections.length)
