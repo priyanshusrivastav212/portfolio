@@ -1,4 +1,4 @@
-npm install react-icons
+!npm install react-icons
 import "@/assets/css/font.css";
 
 import { FaPython, FaRProject, FaGithub, FaTensorflow, FaDatabase } from "react-icons/fa";
