@@ -30,7 +30,7 @@ const TechStackItem = ({ icon, title, description, skillLevel }) => {
   );
 }
 
-export default function TechStack() {
+export default function Techstack() {
   return (
     <div id="techstack" className="h-fit w-full">
       <section className="bg-zinc-900 py-5 flex flex-col justify-center items-center w-full text-gray-100 h-fit">
