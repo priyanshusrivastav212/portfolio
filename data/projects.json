@@ -18,7 +18,7 @@
   {
     "name": "Vehicle Speed Detection",
     "technologies": "Python",
-    "description": "linux debugger.",
+    "description": "Using computer vision, analyzing cars inflow, and outflow giving them individual id and tracking their speed in real‑time",
     "githubRepo": "Tracking highway car speeds in real time",
     "iconColor": "#3572A5",
     "borderColor": "#777777"
