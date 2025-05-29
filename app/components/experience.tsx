@@ -4,19 +4,22 @@ import Image from "next/image";
 
 const experiences = [
   {
-    role: 'Programmer Analyst Intern',
-    date: 'April 2025 - Present',
-    company: 'Cognizant'
+    role: "Programmer Analyst Intern",
+    company: "Cognizant",
+    date: "April 2025 - Present",
+    description: "Working with the QEA team to deliver automated and AI-powered quality engineering solutions using Java, Selenium, and Jira."
   },
   {
-    role: 'Data Analyst Intern',
-    date: 'November 2023 - December 2023',
-    company: 'Great Value Fuels Pvt. Ltd.'
+    role: "Data Analyst Intern",
+    company: "Great Value Fuels Pvt. Ltd.",
+    date: "November 2023 - December 2023",
+    description: "Analyzed operational data from 600+ buses, reducing penalties by 91.4% through route optimization and defaulter detection."
   },
   {
-    role: 'AI Prompt Engineer Intern',
-    date: 'October 2023 - November 2023',
-    company: 'Saraswati Vidyamandir'
+    role: "AI Prompt Engineer Intern",
+    company: "Saraswati Vidyamandir",
+    date: "October 2023 - November 2023",
+    description: "Created and refined natural language prompts, improving JEE/NEET question quality by 93% with 83.4% accuracy in validation."
   }
 ];
 
