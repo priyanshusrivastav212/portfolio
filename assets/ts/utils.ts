@@ -5,7 +5,7 @@ export const openLink = (event: React.MouseEvent, link: string, target: string):
   window.open(link, target);
 }
 
-export const scrollToElement = (element: HTMLElement | null, time: number = 9000): void => {
+/*export const scrollToElement = (element: HTMLElement | null, time: number = 9000): void => {
   if (element) {
     animateScrollTo(element, {
       cancelOnUserAction: false,
@@ -14,7 +14,13 @@ export const scrollToElement = (element: HTMLElement | null, time: number = 9000
       easing: t => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1
     });
   }
+};*/
+export const scrollToElement = (element: HTMLElement | null): void => {
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
 };
+
 
 
 export const isMobile = (): boolean => {
