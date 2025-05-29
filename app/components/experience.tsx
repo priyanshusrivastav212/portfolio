@@ -3,10 +3,23 @@ import Link from "next/link";
 import Image from "next/image";
 
 const experiences = [
-  { role: 'Data Analyst Intern', date: 'November 2023', company: 'Great Value Fuels Pvt. Ltd.' },
-  { role: 'AI Prompt Engineer Intern', date: 'October 2023', company: 'Saraswati Vidyamandir' },
-  { role: 'Machine Learning Intern', date: 'October 2023', company: 'Bharat Intern' },
+  {
+    role: 'Programmer Analyst Intern',
+    date: 'April 2025 - Present',
+    company: 'Cognizant'
+  },
+  {
+    role: 'Data Analyst Intern',
+    date: 'November 2023 - December 2023',
+    company: 'Great Value Fuels Pvt. Ltd.'
+  },
+  {
+    role: 'AI Prompt Engineer Intern',
+    date: 'October 2023 - November 2023',
+    company: 'Saraswati Vidyamandir'
+  }
 ];
+
 
 /*export default function Contact() {
   return (
