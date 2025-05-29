@@ -5,7 +5,7 @@ export const openLink = (event: React.MouseEvent, link: string, target: string):
   window.open(link, target);
 }
 
-export const scrollToElement = (element: HTMLElement | null, time: number): void => {
+export const scrollToElement = (element: HTMLElement | null, time: number = 300): void => {
   if (element) {
     animateScrollTo(element, {
       cancelOnUserAction: false,
@@ -14,7 +14,8 @@ export const scrollToElement = (element: HTMLElement | null, time: number): void
       easing: t => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1
     });
   }
-}
+};
+
 
 export const isMobile = (): boolean => {
   if (typeof window !== 'undefined') {
