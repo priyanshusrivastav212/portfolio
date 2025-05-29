@@ -5,7 +5,7 @@ export const openLink = (event: React.MouseEvent, link: string, target: string):
   window.open(link, target);
 }
 
-export const scrollToElement = (element: HTMLElement | null, time: number = 9000): void => {
+export const scrollToElement = (element: HTMLElement | null, time: number = 300): void => {
   if (element) {
     animateScrollTo(element, {
       maxDuration: time,  // guarantees scroll finishes within this time (in ms)
