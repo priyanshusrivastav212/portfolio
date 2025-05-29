@@ -1,7 +1,7 @@
 import animateScrollTo from "animated-scroll-to";
 
 export const openLink = (event: React.MouseEvent, link: string, target: string): void => {
-  event.preventDefault;
+  event.preventDefault();
   window.open(link, target);
 }
 
