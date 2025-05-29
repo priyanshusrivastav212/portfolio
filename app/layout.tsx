@@ -5,7 +5,7 @@ import "@/assets/css/font.css";
 export const metadata: Metadata = {
   title: "Priyanshu Srivastav | ML Enthusiast | Data Scientist ",
   description:
-    "Final year CSE undergrad and passionate ML enthusiast, aspiring to be a skilled and innovative data scientist.",
+    "CSE graduate and passionate ML enthusiast, aspiring to be a skilled and innovative data scientist.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://nothing.com",
     title: "Priyanshu Srivastav | ML Enthusiast | Data Scientist ",
     description:
-      "Final year CSE undergrad and passionate ML enthusiast, aspiring to be a skilled and innovative data scientist.",
+      "CSE graduate and passionate ML enthusiast, aspiring to be a skilled and innovative data scientist.",
     siteName: "My Website",
     images: [
       {
