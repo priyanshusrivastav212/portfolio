@@ -27,17 +27,17 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="bg-[#0e0e0e] text-white py-16 px-6 md:px-20">
-      <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center border-b border-gray-700 pb-4">
+    <section className="min-h-screen w-full bg-transparent text-gray-900 py-20 px-6 md:px-20">
+      <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center border-b border-gray-300 pb-4">
         Experience
       </h2>
-      <div className="space-y-8">
+      <div className="space-y-12 max-w-4xl mx-auto">
         {experiences.map((exp, index) => (
-          <div key={index} className="border-l-4 border-blue-500 pl-6 relative">
-            <div className="absolute top-0 left-0 w-4 h-4 bg-blue-500 rounded-full -ml-2.5 mt-1.5"></div>
+          <div key={index} className="relative border-l-4 border-blue-500 pl-6">
+            <div className="absolute top-1 left-[-10px] w-4 h-4 bg-blue-500 rounded-full"></div>
             <h3 className="text-xl font-semibold">{exp.role}</h3>
-            <p className="text-sm text-gray-400 mb-1">{exp.company} • {exp.date}</p>
-            <p className="text-base text-gray-200">{exp.description}</p>
+            <p className="text-sm text-gray-600 mb-1">{exp.company} • {exp.date}</p>
+            <p className="text-base text-gray-700">{exp.description}</p>
           </div>
         ))}
       </div>
