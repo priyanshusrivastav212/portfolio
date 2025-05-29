@@ -9,7 +9,7 @@ export default function Whoami() {
           Hello, <br /> I am <br /> Priyanshu Srivastav.
         </div>
         <div className="font-inter pb-20 max-md:pb-1 pl-1 flex items-center text-lg max-lg:text-base max-md:text-center text-[#212121]">
-          <br /> Final year CSE undergrad and passionate ML enthusiast, aspiring to be a <br /> skilled and innovative data scientist.
+          <br /> CSE graduate and passionate ML enthusiast, aspiring to be a <br /> skilled and innovative data scientist.
         </div>
         <div className="relative max-md:hidden">
           {/* https://codepen.io/mikewagz/pen/PGXqOg */}
