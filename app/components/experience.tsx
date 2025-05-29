@@ -2,7 +2,6 @@ import "@/assets/css/font.css";
 import Link from "next/link";
 import Image from "next/image";
 
-"use client";
 import "@/assets/css/font.css";
 
 const experiences = [
