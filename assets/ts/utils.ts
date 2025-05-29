@@ -15,11 +15,17 @@ export const openLink = (event: React.MouseEvent, link: string, target: string):
     });
   }
 };*/
-export const scrollToElement = (element: HTMLElement | null): void => {
+export const scrollToElement = (element: HTMLElement | null, duration: number = 500): void => {
   if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
+    animateScrollTo(element, {
+      cancelOnUserAction: false,
+      elementToScroll: window,
+      maxDuration: duration, // Set total duration of scroll (ms)
+      easing: t => t // Linear easing or replace with a smoother one
+    });
   }
 };
+
 
 
 
