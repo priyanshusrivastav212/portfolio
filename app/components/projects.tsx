@@ -29,7 +29,7 @@ export default function Projects() {
                     priyanshusrivastav212
                   </h5>
                   <h5 className="font-normal text-sm text-[#bacadb] max-md:text-[#1f2328]">
-                    Final Year CSE Undergrad
+                    CSE Graduate
                   </h5>
                 </div>
               </div>
